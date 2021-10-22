@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todo_notes_book">
         <activity
+            android:name=".TodoList"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
